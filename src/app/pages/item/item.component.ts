@@ -20,7 +20,7 @@ export class ItemComponent implements OnInit {
       // console.log(params);
       this.productoService.getProducto(q['id'])
         .subscribe(producto => {
-          console.log('producto ', producto);
+          // console.log('producto ', producto);
           this.producto = producto;
           this.id = q['id'];
         });

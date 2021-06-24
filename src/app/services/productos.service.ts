@@ -52,7 +52,7 @@ export class ProductosService {
       //filtrar
       this.cargarProductos().then((p) => {
         this.filtrarProducto(q);
-        console.log(this.productoFiltrado);
+        // console.log(this.productoFiltrado);
       });
     }
 
